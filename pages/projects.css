@@ -10,7 +10,6 @@
 
 .image{
   height: 350px;
-  
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -44,6 +43,42 @@
   letter-spacing: 5px;
   padding-top: 150px;
 }
+
+.gallery-section {
+  padding: 80px 5%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
 
 
 /* others */
@@ -146,4 +181,8 @@
 .othersPad{
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.videowireframe{
+  padding: 5% 9%;
 }
