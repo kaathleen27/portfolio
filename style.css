@@ -197,6 +197,7 @@ width: 100%;
 
 .nate {
 	color: #7e0c0f;
+	letter-spacing: 8px;
 }
 
 .stack {
@@ -255,7 +256,7 @@ width: 100%;
     background-color: #fdfcfc;
     display: flex;
     flex-direction: row;
-    padding: 4% 9% 0 9%;
+    padding: 8% 9% 0 9%;
     /* Adjust padding for smaller screens */
 	/* border: solid 1px red; */
 }
@@ -307,6 +308,10 @@ width: 100%;
     text-align: left;
     font-size: 15px;
     font-weight: 300;
+}
+
+.iconsabout {
+	font-size: 19px;
 }
 
 /* Media Queries for Responsiveness */
@@ -441,6 +446,10 @@ width: 100%;
 	/* border: solid 1px rgb(0, 255, 47); */
 }
 
+.paraX {
+	height: auto;
+}
+
 .ulul{
 	list-style-type: none;
 	padding: 0;
@@ -497,6 +506,7 @@ width: 100%;
 .box, .box1 {
     background-color: #fff9f6;
     padding: 20px;
+	height: 300px;
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -608,6 +618,7 @@ width: 100%;
 }
 
 .boxxx {
+
     padding: 50px;
     width: 48%;
     background-color: #fff9f6;
@@ -716,6 +727,29 @@ width: 100%;
         padding: 6px 10px;
     }
 }
+
+.ServiceeeCert{
+
+	padding: 4%;
+	margin-top: 8%;
+
+}
+
+.cert img{
+	height: 410px;
+	margin-top: 15%;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 2%;
+}
+
+.cert{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
 
   /* section ---------------------------------------------------------------------RESUME--------------- */
 /*RESUME*/
@@ -1013,5 +1047,6 @@ width: 100%;
 	pointer-events: auto;
 	opacity: 1;
 }
+
 
 
