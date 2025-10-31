@@ -610,25 +610,23 @@ width: 100%;
 
 .prsec {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-	padding: 1%;
 	/* border: solid 1px red; */
 }
 
 .boxxx {
-
     padding: 50px;
     width: 48%;
+    padding: 10px;
+    width: 90%;
     background-color: #fff9f6;
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-	
 }
 
 .titleee {
-    margin-top: 20px;
     color: #3e4355;
     font-size: 18px;
     font-weight: 600;
@@ -649,6 +647,7 @@ width: 100%;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+	margin-bottom: 25px;
 }
 
 .button4:hover {
@@ -738,6 +737,7 @@ width: 100%;
 .cert img{
 	height: 410px;
 	margin-top: 15%;
+	height: 320px;
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 	border-radius: 2%;
 }
@@ -746,7 +746,11 @@ width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-
+	justify-content: space-evenly;
+	gap: 15px;
+	margin-top: 8%;
+	flex-direction: column;
+	max-width: 100%;
 }
 
 
