@@ -612,12 +612,10 @@ width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
 	/* border: solid 1px red; */
 }
 
 .boxxx {
-
     padding: 10px;
     width: 90%;
     background-color: #fff9f6;
@@ -1049,5 +1047,6 @@ width: 100%;
 	pointer-events: auto;
 	opacity: 1;
 }
+
 
 
