@@ -617,13 +617,13 @@ width: 100%;
 }
 
 .boxxx {
-    padding: 50px;
-    width: 48%;
+
     padding: 10px;
     width: 90%;
     background-color: #fff9f6;
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	
 }
 
 .titleee {
@@ -735,8 +735,6 @@ width: 100%;
 }
 
 .cert img{
-	height: 410px;
-	margin-top: 15%;
 	height: 320px;
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 	border-radius: 2%;
@@ -744,13 +742,13 @@ width: 100%;
 
 .cert{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 	justify-content: space-evenly;
 	gap: 15px;
 	margin-top: 8%;
 	flex-direction: column;
+	/* border: solid 1px red; */
 	max-width: 100%;
+
 }
 
 
@@ -1051,6 +1049,5 @@ width: 100%;
 	pointer-events: auto;
 	opacity: 1;
 }
-
 
 
